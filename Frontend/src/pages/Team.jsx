@@ -14,77 +14,100 @@ import Gopinath from "../assets/team/Gopinath.jpg";
 import Harikrishna from "../assets/team/Harikrishna.jpg";
 import Harshaa from "../assets/team/Harshaa.jpg";
 import Lakshana from "../assets/team/Lakshana.jpg";
-import Lenin from "../assets/team/Lenin.jpg";
+import Lenin from "../assets/team/Lenin.jpeg";
 import Mahadev from "../assets/team/Mahadev.jpg";
 import Modhika from "../assets/team/Modhika.jpg";
 //import Rishikeesh from "../assets/team/Rishikeesh.jpg";
 import Roshini from "../assets/team/Roshini.jpg";
-import Sandeep from "../assets/team/Sandeep.jpg";
+import Ankit from "../assets/team/Ankit.jpg";
+import Sandeep from "../assets/team/Sandeep.jpeg";
 import Sania from "../assets/team/Sania.jpg";
 import Shaswathra from "../assets/team/Shaswathra.jpg";
+import Selvadharshini from "../assets/team/Selvadharshini.jpg";
 import Shivani from "../assets/team/Shivani.jpg";
 import SriHarini from "../assets/team/SriHarini.jpg";
-import SriHarish from "../assets/team/SriHarish.jpg";
+import SriHarish from "../assets/team/SriHarish.jpeg";
 import Thrisha from "../assets/team/Thrisha.jpg";
-import VarshaRD from "../assets/team/VarshaRD.jpg";
+import VarshaRD from "../assets/team/VarshaRD.jpeg";
 import VarshaRS from "../assets/team/VarshaRS.png";
-import Vismitha from "../assets/team/Vismitha.jpg";
+import Vismitha from "../assets/team/Vismitha.jpeg";
 import Waafiq from "../assets/team/Waafiq.jpeg";
 import Nagarjun from "../assets/team/Nagarjun.jpg";
 import Ravikrishna from "../assets/team/Ravikrishna.jpg";
 import Venkatesh from "../assets/team/Venkatesh.jpg";
 
+import Priya from "../assets/team/Priya.jpg";
+import Risheekesh from "../assets/team/Risheekesh.jpeg";
+import Snehan from "../assets/team/Snehan.jpeg";
+import Laxmisrii from "../assets/team/Laxmisrii.jpeg";
+import Sailesh from "../assets/team/Sailesh.jpg";
+import Jerome from "../assets/team/Jerome.jpg";
+import Akash from "../assets/team/Akash.jpg";
+import Kamali from "../assets/team/Kamali.jpg";
+
+
 const subsystems = [
   {
     name: "Mechanical Subsytem",
-    members: [{ name: "Tharakeshwaran", imageUrl: Tharakeshwaran }],
+
+    members: [{ name: "Tharakeshwaran", imageUrl: Tharakeshwaran },
+      { name: "Sailesh", imageUrl: Sailesh },
+      { name: "Jerome Flawin J", imageUrl: Jerome },
+      { name: "Akash S", imageUrl: Akash }],
+
   },
   {
     name: "Electrical Subsystem",
     members: [
+      { name: "Kamali S", imageUrl: Kamali },
       { name: "Harshaa", imageUrl: Harshaa },
-      { name: "Leninsingharam", imageUrl: Lenin },
+      { name: "Selvadharshini S", imageUrl: Selvadharshini },
+      { name: "Vismitha", imageUrl: Vismitha },
+      { name: "Modhika", imageUrl: Modhika },
+      { name: "Leninsingharam",imageUrl: Lenin},
       { name: "Barath Krishna", imageUrl: Barath },
       { name: "Anandh", imageUrl: Anandh },
       { name: "Mahadev", imageUrl: Mahadev },
+      { name: "Ankit Chandran R", imageUrl: Ankit },
+
     ],
   },
   {
     name: "Science and Sensors Subsystem",
     members: [
+      { name: "Sania Franklin", imageUrl: Sania },
+      { name: "Gopinath", imageUrl: Gopinath },
       { name: "Varsha RD", imageUrl: VarshaRD },
       { name: "Varsha RS", imageUrl: VarshaRS },
       { name: "Aksheta", imageUrl: Aksheta },
-      { name: "Sania Franklin", imageUrl: Sania },
-      { name: "Vismitha", imageUrl: Vismitha },
-      { name: "Shaswathra", imageUrl: Shaswathra },
+      { name: "Priya L", imageUrl: Priya },
+      { name: "Shashwathra", imageUrl: Shaswathra },
       { name: "Sri Harish", imageUrl: SriHarish },
       { name: "Bavishyaa", imageUrl: Bavishyaa },
-      { name: "Modhika", imageUrl: Modhika },
       { name: "Thrisha", imageUrl: Thrisha },
-      { name: "Gopinath", imageUrl: Gopinath },
+
     ],
   },
   {
-    name: "ROS subsystem",
+    name: "ROS and Autonomous Subsystem",
     members: [
       { name: "Shivani Varsha", imageUrl: Shivani },
+      { name: "Sree Snehan", imageUrl: Snehan },
       { name: "Ashwin M", imageUrl: Ashwin },
-      { name: "Waafiq Raakin", imageUrl: Waafiq },
-      { name: "Roshini Priya", imageUrl: Roshini },
-    ],
-  },
-  {
-    name: "Autonomous Subsytem",
-    members: [
+
       { name: "Sandeep S", imageUrl: Sandeep },
       { name: "Harikrishna S", imageUrl: Harikrishna },
-      { name: "Rishikeesh", imageUrl: "/src/assets/team/Rishikeesh.jpg" },
-      { name: "Gautham Prasad", imageUrl: Gautham },
+      { name: "Risheekesh", imageUrl: Risheekesh },
+      { name: "Gautham Prasath", imageUrl: Gautham },
       { name: "Deepak Chandrasekar", imageUrl: Deepak },
       { name: "Lakshana G", imageUrl: Lakshana },
+      { name: "Waafiq Raakin", imageUrl: Waafiq },
+      { name: "Roshini Priya", imageUrl: Roshini },
+      { name: "Laxmisrii K", imageUrl: Laxmisrii },
+
     ],
   },
+  
   {
     name: "Communication Subsystem",
     members: [
@@ -92,6 +115,15 @@ const subsystems = [
       { name: "Dousik M", imageUrl: Dousik },
       { name: "Sri Harini", imageUrl: SriHarini },
     ],
+
+  },
+  {
+    name: "Website",
+    members: [
+      { name: "Deepak Chandrasekar", imageUrl: Deepak },
+      { name: "Risheekesh", imageUrl: Risheekesh },
+    ],
+
   },
 ];
 

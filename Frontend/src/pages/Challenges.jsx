@@ -38,7 +38,9 @@ const challenges = [
   {
     title: "International Rover Challenge 2024",
     date: "January, 2024",
-    location: "BITS Pilani GOA Campus, India",
+
+    location: "PSG Institute of Technology and Applied Research, India",
+
     description: "Secured 15th place globally in a highly competitive environment.",
     image: IRC_logo,
     sortDate: new Date("2024-01-01"),
