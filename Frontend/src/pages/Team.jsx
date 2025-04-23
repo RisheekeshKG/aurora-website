@@ -35,6 +35,7 @@ import Waafiq from "../assets/team/Waafiq.jpeg";
 import Nagarjun from "../assets/team/Nagarjun.jpg";
 import Ravikrishna from "../assets/team/Ravikrishna.jpg";
 import Venkatesh from "../assets/team/Venkatesh.jpg";
+
 import Priya from "../assets/team/Priya.jpg";
 import Risheekesh from "../assets/team/Risheekesh.jpeg";
 import Snehan from "../assets/team/Snehan.jpeg";
@@ -44,13 +45,16 @@ import Jerome from "../assets/team/Jerome.jpg";
 import Akash from "../assets/team/Akash.jpg";
 import Kamali from "../assets/team/Kamali.jpg";
 
+
 const subsystems = [
   {
     name: "Mechanical Subsytem",
+
     members: [{ name: "Tharakeshwaran", imageUrl: Tharakeshwaran },
       { name: "Sailesh", imageUrl: Sailesh },
       { name: "Jerome Flawin J", imageUrl: Jerome },
       { name: "Akash S", imageUrl: Akash }],
+
   },
   {
     name: "Electrical Subsystem",
@@ -65,6 +69,7 @@ const subsystems = [
       { name: "Anandh", imageUrl: Anandh },
       { name: "Mahadev", imageUrl: Mahadev },
       { name: "Ankit Chandran R", imageUrl: Ankit },
+
     ],
   },
   {
@@ -80,6 +85,7 @@ const subsystems = [
       { name: "Sri Harish", imageUrl: SriHarish },
       { name: "Bavishyaa", imageUrl: Bavishyaa },
       { name: "Thrisha", imageUrl: Thrisha },
+
     ],
   },
   {
@@ -88,6 +94,7 @@ const subsystems = [
       { name: "Shivani Varsha", imageUrl: Shivani },
       { name: "Sree Snehan", imageUrl: Snehan },
       { name: "Ashwin M", imageUrl: Ashwin },
+
       { name: "Sandeep S", imageUrl: Sandeep },
       { name: "Harikrishna S", imageUrl: Harikrishna },
       { name: "Risheekesh", imageUrl: Risheekesh },
@@ -97,6 +104,7 @@ const subsystems = [
       { name: "Waafiq Raakin", imageUrl: Waafiq },
       { name: "Roshini Priya", imageUrl: Roshini },
       { name: "Laxmisrii K", imageUrl: Laxmisrii },
+
     ],
   },
   
@@ -107,6 +115,7 @@ const subsystems = [
       { name: "Dousik M", imageUrl: Dousik },
       { name: "Sri Harini", imageUrl: SriHarini },
     ],
+
   },
   {
     name: "Website",
@@ -114,6 +123,7 @@ const subsystems = [
       { name: "Deepak Chandrasekar", imageUrl: Deepak },
       { name: "Risheekesh", imageUrl: Risheekesh },
     ],
+
   },
 ];
 

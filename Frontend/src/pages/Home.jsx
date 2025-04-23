@@ -31,6 +31,35 @@ function Home() {
             className="w-full h-full object-cover opacity-40"
           />
         </div>
+        
+        {/* Centered Content */}
+        <div className="relative z-10 flex flex-col items-center">
+          <div className="flex flex-col md:flex-row items-center gap-x-24 gap-y-10">
+            {/* Text */}
+            <div className="text-center md:text-left mt-[30px]">
+              
+              <motion.h1
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.8 }}
+                className="text-5xl md:text-7xl font-light mb-6"
+              >
+                Team Aurora
+              </motion.h1>
+              <br />
+              <br />
+              <motion.p
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.8, delay: 0.2 }}
+                className="text-lg md:text-xl text-gray-200 max-w-xl"
+              >
+                We are passionate group of students pushing the limits of rover
+                technology and space exploration. We continue to redefine
+                excellence in autonomous robotics.
+              </motion.p>
+            </div>
+
 
         {/* Centered Content */}
         <div className="relative z-10 flex flex-col items-center">
@@ -58,6 +87,7 @@ function Home() {
               </motion.p>
             </div>
 
+
             {/* Rover Image with hover animation */}
             <motion.div
               initial={{ opacity: 0, scale: 0.8 }}
@@ -73,7 +103,7 @@ function Home() {
                   scale: 1.1,
                   rotate: 2,
                   x: -20,
-                  y: -5,
+                  y: -5, // simulate slight lift on hover
                 }}
                 whileTap={{ scale: 0.95 }}
               />
@@ -104,10 +134,12 @@ function Home() {
             className="grid md:grid-cols-2 gap-12 items-center"
           >
             <div>
-              <h2 className="text-3xl md:text-4xl font-bold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-[rgba(171,132,98,1)] to-white">
+
+              <h2 className="text-4xl font-bold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-[rgba(171,132,98,1)] to-white">
                 Our Mission
               </h2>
-              <p className="text-gray-300 text-base md:text-lg leading-relaxed">
+              <p className="text-gray-300 text-lg leading-relaxed">
+
                 Team AURORA is dedicated to pushing the boundaries of rover
                 technology through innovative design and engineering. Our
                 mission is to develop cutting-edge rovers capable of exploring
